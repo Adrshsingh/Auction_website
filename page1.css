@@ -1,0 +1,237 @@
+.headernav{
+    display: flex;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-dream-sports-campus-sports-festival-image_170940.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 100% 100%;
+    background-color: rgb(117, 107, 107, 1);
+    /* background-size: cover; */
+    border-radius: 20px;
+    color: black;
+}
+.headernav h1{
+    font-family: 'Ubuntu';
+    font-size: 3rem;
+    position: absolute;
+    /* font-weight: ; */
+    transform: translateY(100%);
+    text-shadow: 0px 0px 10px rgb(117, 107, 107) 
+}
+nav img{
+    padding: 0px 0px;
+}
+nav a button{
+    font-size: 20px;
+    width: 13rem;
+    position: absolute;
+    right: 78px;
+    transform: translateY(-50%);
+}
+
+/* TESTIMONIAL */
+
+
+.testimonial-carousel .owl-item .testimonial-item,
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item {
+    background: var(--primary) !important;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    color: #FFFFFF !important;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 5px solid var(--primary);
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    background: var(--dark);
+    border-color: var(--primary);
+}
+
+/* TESTIMONIAL */
+
+
+
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    margin-top: 10%;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.7em;
+    margin-top: 1em;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.player-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1em;
+    max-width: 220px;
+    transition: box-shadow 0.3s;
+}
+
+.player-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.player-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.player-info {
+    padding: 1em;
+    text-align: left;
+}
+
+.player-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.player-info p {
+    margin: 0.5em 0;
+    color: #666;
+}
+
+
+
+
+
+
+
+.multiple {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    height: 500px;
+}
+.multiple img {
+    /* position: absolute; */
+    /* transform: translateY(15%); */
+    /* transform: translateX(0%); */
+    margin-left: 15px;
+    width: 750px;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+.multiplecontent{
+    
+    padding-top: 180px;
+    padding-left: 110px;
+}
+.multiplecontent p{
+    padding: 0px;
+    margin: 0px 0px;
+}
+
